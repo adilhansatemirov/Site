@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Princess+Sofia|Trocchi');
+/*
+ ОБРАЩАТЬСЯ К ШРИФТАМ ВОТ ТАК
+font-family: 'Princess Sofia', cursive;
+font-family: 'Trocchi', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+div, p, input, button, a {
+	box-sizing: border-box;
+}
+.clearfix{
+  content: '';
+  display: table;
+  width: 100%;
+  clear: both;
+}
+body{
+  background: #742b2e;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+#section1{
+  background: url("../images/wall-picture1.jpg") no-repeat center center / cover;
+  height: 100vh;
+  margin-bottom: 40px;
+}
+.farm{
+  /*background-size: cover;*/
+  /*background-size: 120% auto;*/
+  background-color: rgba(0,0,0,0.8);
+  width: 100%;
+  height: 100vh;
+}
+.navbar ul{
+  margin: 0 auto;
+  display: table;
+}
+.navbar ul li{
+  float: left;
+  display: block;
+  margin-top: 10px;
+  display: table-cell;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.navbar ul li .active{
+  color: white;
+}
+.navbar ul li a:hover{
+  color: white;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #d9d9d9;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.name{
+  text-align: center;
+  margin-top: 30vh;
+}
+.name #n1{
+  color: white;
+  font-size: 130px;
+  text-align: center;
+  font-family: 'Montserrat', bold;
+  font-weight: bold;
+  margin-top: 80px;
+}
+.name #n2{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Montserrat', bold;
+  /*font-weight: bold; */
+  margin-top: -10px;
+}
+.name a{
+  text-decoration: none;
+  color: white;
+  padding: 15px 30px;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Montserrat', bold;
+  background-color: #742b2c;
+  border-radius: 10px;
+  /*display: block;*/
+  /*width: 150px;*/
+  /*margin:0 auto;*/
+  margin-top: 40px;
+  display: inline-block;
+}
+.name a:hover{
+  background-color: #e6d157;
+  color: #742b2c;
+}
+
+/* juices, freshs, ice cream */
+.item{
+  width: 80%;
+  margin: 0 auto;
+  display: table;
+  background: tomato;
+}
+.item .image{
+  display: table-cell;
+  height: auto;
+  width: 50%;
+}
+.item .image img{
+  width: 100%;
+  display: block;
+  height: auto;
+}
+.item .text{
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+  height: auto;
+  font-size: 7em;
+  text-align: center;
+  width: 50%
+}
+.one{
+  background: #e6d157;
+}
+.two{
+  background: #df552f;
+}
+.three{
+  background: #8ace11;
+}
+
+/* Special week offer */
+#section3{
+  margin-top: 5vh;
+}
+#section3 >div{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 3.5em;
+  color: white;
+  font-family: 'Trocchi', serif;
+}
+.offer{
+  background: url("../images/exoticfruit-header.jpg") no-repeat center center / cover;
+  width: 100%;
+  height: 30vh;
+  font-size: 1.2em;
+  font-family: 'Princess Sofia';
+  padding-top: 0.08em;
+}
+.offer a{
+  text-decoration: none;
+  color: white;
+  font-size: 0.5em;
+  margin-left: 0.6em;
+  margin-right: 0.6em;
+  font-family: 'Trocchi', serif;
+  padding: 0.1em 0.5em 0.1em 0.5em  ;
+  background: black;
+}
+.offer a:nth-child(2){
+  background: #e05630;
+}
+.offer a:nth-child(3){
+  background: #8bce11;
+}
+.offer a:nth-child(4){
+  background: #3d0304;
+}
+
+.offer a:nth-child(2):hover{
+  color: #e05630;
+  background: #f4ea51;
+}
+.offer a:nth-child(3):hover{
+  color: #8bce11;
+  background: #f4ea51;
+}
+.offer a:nth-child(4):hover{
+  color: #3d0304;
+  background: #f4ea51;
+}
+.offer ul{
+  margin: 0 auto;
+  display: table;
+}
+.offer ul li{
+  float: left;
+  display: block;
+  display: table-cell;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+}
+.offer ul li:nth-child(1){
+  color: #fbf450;
+}
+.offer ul li:nth-child(2){
+  color: #ffbd4a;
+}
+.offer ul li:nth-child(3){
+  color: #97d964;
+}
+.offer ul li:nth-child(4){
+  color: #44d8e5;
+}
+#section4{
+  margin-top: 5vh;
+}
+.footer{
+  background-color:#FAEBD7;
+  color: #731915;
+  font-size: 25px;
+  width: 80%;
+  margin: 0 auto;
+}
+.footer .takirip{
+  font-size: 4em;
+  padding: 0 0 15px 0;
+  font-family:impact;
+}
+.footer .contacts{
+  padding: 0 3em 2em 3em;
+}
+.footer .contacts .dom,
+.footer .contacts .telefon{
+  float: left;
+  width: 50%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3em;
+}
+.footer .contacts .dom i,
+.footer .contacts .telefon i{
+  float: left;
+  font-size: 2.5em;
+  margin-right: 0.2em;
+  padding: 0;
+}
+
+.footer .telefon a{
+  text-decoration: none;
+  color: #DC143C;
+}
